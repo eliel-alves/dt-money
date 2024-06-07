@@ -3,13 +3,13 @@ import { useContext } from "react";
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
 import { SearchForm } from "./components/SearchForm";
-import { TransactionContext } from "../../contexts/TransactionsContext";
+import { TransactionsContext } from "../../contexts/TransactionsContext";
 
 import { TransactionsContainer, TransactionsTable, PriceHighlight } from "./styles";
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
 
 export function Transactions() {
-  const { transactions } = useContext(TransactionContext);
+  const { transactions } = useContext(TransactionsContext);
 
   return (
     <div>
