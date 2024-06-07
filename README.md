@@ -1,6 +1,6 @@
 # DT Money
 
-Projeto desenvolvido utilizando React e TypeScript, a aplicação consome uma API local simulando um backend completo. O objetivo do projeto é aprender como criar interfaces que exibem conteúdo existente em alguma API.
+Project developed using React and TypeScript, the application consumes a local API simulating a complete backend. The goal of the project is to learn how to create interfaces that display existing content in some API.
 
 ## The idea
 
