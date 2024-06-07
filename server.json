@@ -39,6 +39,14 @@
       "type": "outcome",
       "createdAt": "2024-06-07T17:13:17.917Z",
       "id": 5
+    },
+    {
+      "description": "Tênis",
+      "category": "Roupas",
+      "price": 200,
+      "type": "outcome",
+      "createdAt": "2024-06-07T21:02:54.605Z",
+      "id": 6
     }
   ]
 }

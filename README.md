@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido utilizando React e TypeScript, a aplicação consome uma API local simulando um backend completo. O objetivo do projeto é aprender como criar interfaces que exibem conteúdo existente em alguma API.
 
-Currently, two official plugins are available:
+## The idea
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project is a financial control application, which shows all input and output data. It is possible to register a new transaction through the button, which opens a modal. Finally, it also displays data from the transaction table through a form.
 
-## Expanding the ESLint configuration
+## Used tools:
+- React
+- Typescript
+- Vite
+- styled-components
+- zod
+- JSON server
+- and others
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Screenshots
 
-- Configure the top-level `parserOptions` property like this:
+### Homepage screen
+![Homepage](/src/assets/home.png?raw=true "Homepage")
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### New transaction modal
+![Homepage](/src/assets/new-transaction.png?raw=true "Homepage")
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Filtering data
+![Homepage](/src/assets/filter.png?raw=true "Homepage")
