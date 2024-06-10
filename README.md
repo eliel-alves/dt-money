@@ -16,7 +16,8 @@ The project is a financial control application, which shows all input and output
 - and others
 
 ## Deploy
-You can check out the project live by [clicking here](https://dt-money-xi-six.vercel.app/).
+Observations: The backend will only work in development mode as it uses `json-server` as a dependency.
+You can check out the frontend project live by [clicking here](https://dt-money-xi-six.vercel.app/).
 
 ## Screenshots
 
