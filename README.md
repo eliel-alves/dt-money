@@ -15,6 +15,9 @@ The project is a financial control application, which shows all input and output
 - JSON server
 - and others
 
+## Deploy
+Você pode conferir o projeto ao vivo [clicando aqui](https://dt-money-xi-six.vercel.app/).
+
 ## Screenshots
 
 ### Homepage screen
